@@ -127,8 +127,12 @@ The system supports four user roles with the following functionalities:
 ## References
 
 Lutz, M. (2013). *Learning Python* (5th ed.). O'Reilly Media.  
+
 OpenAI. (2024). *ChatGPT*. OpenAI. https://chatgpt.com/  
+
 Python Software Foundation. (2024). *Python 3.13 documentation*. Python.org. https://docs.python.org/3/  
+
 Stack Exchange Inc. (2024). *Stack Overflow: Python programming Q&A*. Stack Exchange. https://stackexchange.com/
+
 xAI. (2024). *Grok AI documentation*. xAI. https://grok.xai/  
 ---
