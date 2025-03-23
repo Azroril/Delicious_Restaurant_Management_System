@@ -5,6 +5,10 @@ from user_manager import managerprofile
 
 def main():
     while True:
+        print("--------------------------------")
+        print("\n_____Welcome Manager!______")
+        print(" ")
+        print(" ")
         print("\n1. Manage Customer")
         print("2. Manage Item")
         print("3. Manage Menu")
