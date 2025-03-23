@@ -1,8 +1,8 @@
-import sys
-import os
-import json
+import sys #Deepr system than os
+import os #
+import json #To store data
 
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.abspath(os.path.dirname(__file__))) #To make file if there is not one present
 
 from user_admin import admin
 from user_chef import chef
@@ -87,7 +87,7 @@ def register_customer():
             break
     
     while True:
-        password = input("Enter a password: ").strip()
+        password = input("Enter a password: ").strip() #uses sys to print n imput data
         if not password:
             print("Password cannot be empty!")
         else:
