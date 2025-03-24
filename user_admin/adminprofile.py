@@ -34,7 +34,7 @@ class Admin:
         with open('./User_Data/admin_profile.json', 'w') as file:
             json.dump(data, file, indent=4)
 
-    @classmethod
+    @classmethod #class banako
     def load_from_file(cls):
         try:
             with open('./User_Data/admin_profile.json', 'r') as file:

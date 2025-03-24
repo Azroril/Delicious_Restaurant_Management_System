@@ -10,7 +10,7 @@ def main():
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
-    feedback_file = os.path.join(project_root, "User_Data", "feedbacks.json")
+    feedback_file = os.path.join(project_root, "User_Data", "feedbacks.json") #exactly file contain garni thau
     
     try:
         with open(feedback_file, 'r') as file:

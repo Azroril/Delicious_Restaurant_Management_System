@@ -32,7 +32,7 @@ def load_customer_credentials():
 
 def save_customer_credentials(credentials):
     with open(CUSTOMER_CREDENTIALS_FILE, "w") as file:
-        json.dump(credentials, file, indent=4)
+        json.dump(credentials, file, indent=4) #dump is for write
 
 def authenticate(username, password):
     if not username.strip() or not password.strip():
@@ -163,7 +163,7 @@ def main():
             print("    ")
             print("    ")
             print("------------------------------------------------------")
-            print("Special thanks to Shiva Raj Paudel and Saroj Neupane  ")
+            print("  Special thanks to Shiva Raj Paudel and Saroj Neupane  ")
             print("------------------------------------------------------")
 
 
